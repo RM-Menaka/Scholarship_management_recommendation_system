@@ -1,16 +1,94 @@
-# scholar_find
+# Scholarship Management Recommendation System
 
-A new Flutter project.
+A full-stack scholarship management and recommendation platform developed to simplify the process of discovering, applying for, and managing scholarships for students.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Student Registration & Login
+- Scholarship Listings
+- Scholarship Recommendation System
+- Student Dashboard
+- Admin Panel
+- Application Management
+- Eligibility-based Filtering
+- Secure Database Connectivity
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Frontend
+- Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Backend
+- PHP
+
+### Database
+- MySQL
+- phpMyAdmin
+
+### Version Control
+- Git & GitHub
+
+## Project Structure
+
+```text
+Scholarship_management_recommendation_system/
+│
+├── backend/        # PHP backend files
+├── database/       # SQL database files
+├── screenshots/    # Project screenshots
+├── lib/            # Flutter source code
+├── android/
+├── ios/
+├── web/
+└── README.md
+```
+
+## Installation
+
+### Frontend (Flutter)
+
+```bash
+flutter pub get
+flutter run
+```
+
+### Backend (PHP)
+
+1. Place backend folder inside XAMPP htdocs
+2. Start Apache and MySQL
+3. Import the SQL file from database folder using phpMyAdmin
+
+## Database Setup
+
+1. Open phpMyAdmin
+2. Create a new database
+3. Import the `.sql` file from:
+
+```text
+database/
+```
+
+## Screenshots
+
+### Login Page
+Add screenshot here
+
+### Dashboard
+Add screenshot here
+
+### Recommendation System
+Add screenshot here
+
+## Future Enhancements
+
+- AI-based recommendation improvements
+- Email notifications
+- Scholarship deadline reminders
+- Admin analytics dashboard
+- Cloud deployment
+
+## Developed By
+
+Menaka RM
+College of Engineering Guindy (CEG)
+Anna University
